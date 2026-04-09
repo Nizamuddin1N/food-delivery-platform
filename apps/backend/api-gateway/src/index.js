@@ -8,7 +8,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-  origin: "https://foodrush-nizm.vercel.app"
+  origin: "*"
 }))
 
 // Health check BEFORE routes
