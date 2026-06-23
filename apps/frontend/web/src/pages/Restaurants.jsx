@@ -87,7 +87,7 @@ export default function Restaurants() {
         ) : filtered.length === 0 ? (
           <div className="text-center py-20">
             <span className="text-6xl">🍽️</span>
-            <p className="text-gray-500 text-xl mt-4">No restaurants found</p>
+            <p className="text-gray-500 text-xl mt-4">The app backend stopped running because our AWS Free Tier expired. You can check out the GitHub repo = https://github.com/Nizamuddin1N/foodRush</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
